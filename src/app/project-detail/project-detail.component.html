@@ -1,0 +1,6 @@
+<div *ngIf="project">
+  <h2>{{project.name}}</h2>
+  <p>{{project.description}}</p>
+  <div><a target="_blank" rel="noopener" href="https://{{project.link}}">View on GitHub</a></div>
+  <button (click)="goBack()">Back</button>
+</div>
