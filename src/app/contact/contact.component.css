@@ -1,0 +1,15 @@
+h3 {
+    text-align: center;
+}
+ul {
+    list-style-type: none;
+    text-align: center;
+}
+  
+li {
+    line-height: 2.5em;
+}
+li code:hover {
+    color: #cce0cc;
+    font-size: larger;
+}
